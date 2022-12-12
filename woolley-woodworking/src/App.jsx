@@ -22,7 +22,7 @@ function App() {
         </section>
         <MainSection />
         <PhotoGallery />
-        <h2>Lorem Ipsum Doler Sit Amet rattatata pokedex jiu jistu Bulbasaur Dinodon Charmander Argonauts</h2>
+        <h2>Lorem Ipsum Doler Sit Amet rattatata pokedex jiu jistu Bulbasaur Dinodon Charmander Argonauts beyblades</h2>
       </main>
 
     </div>
