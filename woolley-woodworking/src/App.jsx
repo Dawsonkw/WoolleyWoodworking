@@ -7,6 +7,7 @@ import '@fontsource/roboto/700.css';
 import Navbar from './components/navbar.jsx'
 import MainSection from './components/MainSection';
 import PhotoGallery from './components/PhotoGallery';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -15,14 +16,16 @@ function App() {
 
       <main className='bg-white'>
         <section className='min-h-screen'>
-          {/* First component will be a navbar that will include the title 'Woolley Woodworking', and links for Profile, About and Contact*/}
           <div>
             <Navbar />         
           </div>
+          <PhotoGallery />
+          <Contact />
         </section>
         <MainSection />
-        <PhotoGallery />
+        
         <h2>Lorem Ipsum Doler Sit Amet rattatata pokedex jiu jistu Bulbasaur Dinodon Charmander Argonauts beyblades</h2>
+        
       </main>
 
     </div>
