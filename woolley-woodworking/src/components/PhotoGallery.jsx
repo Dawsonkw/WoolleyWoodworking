@@ -60,7 +60,7 @@ class PhotoGallery extends Component {
         
 
         return (
-            <div>
+            <div className='bg-gray-200'>
                 <div>
                     <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}>
                     <Masonry gutter='20px'>
