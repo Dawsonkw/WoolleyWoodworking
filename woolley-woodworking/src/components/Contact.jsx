@@ -77,14 +77,14 @@ class Contact extends Component {
                                         <label name='to_name' htmlFor="" className='text-sm'>Your Name</label>
                                     </div>
                                         <div>
-                                            <input type="text" placeholder='Your Name' className='ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-500' />
+                                            <input type="text" placeholder='Your Name' className='ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-500' name='from_name' />
                                         </div>
                                     <div>
                                     <div>
                                         <label htmlFor="" className='text-sm'>Email Address</label>
                                     </div>
                                         <div>
-                                            <input type="email" placeholder='Email Address' className='ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-500' />
+                                            <input type="email" placeholder='Email Address' className='ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-500' name=' from_name' />
                                         </div>
                                     </div>
                                     <div>
@@ -92,7 +92,7 @@ class Contact extends Component {
                                         <label htmlFor="" className='text-sm'>Message</label>
                                     </div>
                                     <div>
-                                        <textarea type="text" placeholder='Type a brief message here' rows={4} className='ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-500'></textarea>
+                                        <textarea type="text" placeholder='Type a brief message here' rows={4} className='ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-500' name='message'></textarea>
                                     </div>
                                     </div>
                                     <button type='submit' className='inline-block self-end bg-tan text-white font-bold rounded-lg px-6 py-2 uppercase text-sm'>Send Message</button>
@@ -108,6 +108,8 @@ class Contact extends Component {
         );
     }
 }
+
+
 
 export default Contact;
 

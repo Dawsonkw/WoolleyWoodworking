@@ -8,7 +8,6 @@ import Navbar from './components/navbar.jsx'
 import MainSection from './components/MainSection';
 import PhotoGallery from './components/PhotoGallery';
 import Contact from './components/Contact';
-import Sender from './components/Sender';
 
 function App() {
   const images = [
@@ -69,7 +68,7 @@ function App() {
           </div>
           <PhotoGallery images={images} />
           <Contact />
-          {/* <Sender /> */}
+          
         </section>
         <MainSection />
         
