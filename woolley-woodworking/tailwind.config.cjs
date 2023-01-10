@@ -25,6 +25,12 @@ module.exports = {
         'gold': '#d6ad60',
         'forestgreen': '#104210',
       },
+      minHeight: {
+        '1/4': '25%',
+        '1/2': '300px',
+        '3/4': '75%',
+        '90/1': '90%',
+      },
     },
   },
   plugins: [],

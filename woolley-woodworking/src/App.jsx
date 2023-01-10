@@ -67,10 +67,11 @@ function App() {
             <Navbar />         
           </div>
           <PhotoGallery images={images} />
+          <MainSection />
           <Contact />
           
         </section>
-        <MainSection />
+        
         
         <h2>Lorem Ipsum Doler Sit Amet rattatata pokedex jiu jistu Bulbasaur Dinodon Charmander Argonauts beyblades</h2>
         
@@ -82,5 +83,4 @@ function App() {
 
 export default App
 
-//  Use these as an example template for website design https://www.tallguywoodworking.com/#  and   https://customfurnituredfw.com/ 
-
+// I'm going to build a stripe component that isnt going to be necessasarily hooked into the the project at fisrt, but will exist in the files so that when it comes time to need it I can just add it to the app =p

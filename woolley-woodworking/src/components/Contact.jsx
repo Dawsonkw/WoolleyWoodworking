@@ -32,17 +32,22 @@ const handleOnSubmit = (e) => {
   };
 
 
+
+
+
+
 class Contact extends Component {
     render() {
+
         return (
             <div>
-                <div className='bg-gray-200'>
-                <div className='flex w-full min-h-screen justify-center items-center'>
+                <div className='bg-gray-200 flex justify-center'>
+                <div className='flex w-full min-h-1/4 max-w-90/1 justify-center items-center'>
                     <div className='flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-charcoal w-full max-w-4xl p-8 rounded-xl shadow-lg text-white overflow-hidden'>
                         <div className='flex flex-col justify-between'>
                             <div>
                                 <h1 className='font-bold text-4xl tracking-wide text-cream'>Contact Me</h1>
-                                <p className='pt-2 text-gold text-sm'> this is  test Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <p className='pt-2 text-gold text-sm'> For pricing or to request custom artwork, please don't hesitate to reach out below.  </p>
                             </div>
                             <div>
                                 <div className='flex flex-row p-5 space-x-3 text-gold '>
@@ -72,11 +77,12 @@ class Contact extends Component {
                             <div className='absolute w-40 h-40 bg-tan rounded-full -right-20 -top-20'></div>
                             <div className='absolute w-40 h-40 bg-tan rounded-full -left-20 -bottom-20'></div>
                             <div className='relative z-10 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80 '>
-                                <form onSubmit={handleOnSubmit}  action="" className='flex flex-col space-y-4'>
+                                <form  action="" className='flex flex-col space-y-4'>
                                     <div>
                                         <label name='to_name' htmlFor="" className='text-sm'>Your Name</label>
                                     </div>
                                         <div>
+                                            
                                             <input type="text" placeholder='Your Name' className='ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-500' name='from_name' />
                                         </div>
                                     <div>
